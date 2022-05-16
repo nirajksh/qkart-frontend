@@ -14,7 +14,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import "./Products.css";
 import ProductCard from "./ProductCard";
-//import Cart,{generateCartItemsFrom} from "./Cart"
+import Cart,{generateCartItemsFrom} from "./Cart"
 
 
 const Products = () => {
@@ -451,7 +451,9 @@ const Products = () => {
                 </Grid >
                   <Grid item xs={12} md={3} bgcolor="#E9F5E1" >
                     <Box  display="flex" justifyContent="start">
-
+                       <Cart items ={generateCartItemsFrom(cartData,productsData)}
+                             handleQuantity={setCartData}
+                         />   
                     </Box>
                   </Grid>
                </Grid>
