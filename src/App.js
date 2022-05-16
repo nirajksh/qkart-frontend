@@ -21,6 +21,7 @@ function App() {
             <Route path="/register" component={Register} />
             <Route path="/login" component={Login} />
             <Route exact path="/" component={Products} />
+            <Route path="/checkout" component={Checkout} />
           </Switch>
         </ThemeProvider>
       </React.StrictMode>
