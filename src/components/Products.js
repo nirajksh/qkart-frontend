@@ -451,9 +451,7 @@ const Products = () => {
                 </Grid >
                   <Grid item xs={12} md={3} bgcolor="#E9F5E1" >
                     <Box  display="flex" justifyContent="start">
-                       <Cart items ={generateCartItemsFrom(cartData,productsData)}
-                             handleQuantity={setCartData}
-                         />   
+
                     </Box>
                   </Grid>
                </Grid>
