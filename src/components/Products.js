@@ -87,7 +87,7 @@ const Products = () => {
   useEffect(()=>{
   performAPICall();
   fetchCart(localStorage.getItem("token"))  
-  },[])
+  })
    
   
 // console.log("CartDataDetails",generateCartItemsFrom(cartData,productsData))
