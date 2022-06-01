@@ -10,7 +10,7 @@ import { ThemeProvider } from "@mui/system";
 import React from "react";
 
 export const config = {
-  endpoint: `https://qkart-frontend018.herokuapp.com/api/v1`,
+  endpoint: `https://qkart-frontend-niraj.herokuapp.com/api/v1`,
 };
 
 function App() {
